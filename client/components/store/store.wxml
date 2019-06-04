@@ -1,0 +1,12 @@
+<!--components/store/store.wxml-->
+<view class='box'>
+   <view class='head'>
+     <text>{{headerName}}</text>
+   </view>
+   <view class='money'>
+     <text>{{money}}￥</text>
+   </view>
+   <view class='person'>
+     <scroll-view>asasasaasasdsascca</scroll-view>
+   </view>
+</view>

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/bank/bank",
+    "pages/pay/pay",
+    "pages/my/my",
+    "pages/addBank/addBank"
+  ],
+  "window": {
+    "backgroundColor": "#c00",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "PBCM",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/bank/bank",
+        "text": "库",
+        "iconPath": "statice/image/bank.png",
+        "selectedIconPath": "statice/image/bank1.png"
+      },
+      {
+        "pagePath": "pages/pay/pay",
+        "text": "支",
+        "iconPath": "statice/image/center.png",
+        "selectedIconPath": "statice/image/center1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "statice/image/my.png",
+        "selectedIconPath": "statice/image/my1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 3000
+  }
+}

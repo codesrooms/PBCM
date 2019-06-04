@@ -1,0 +1,15 @@
+/* components/record/record.wxss */
+.record-box
+{margin-top: 20rpx;}
+.time{
+  padding:  0rpx 20rpx;
+  background: #fff;
+  height: 100rpx;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+  border-bottom: 1rpx #f0f0f0 solid;
+}
+.time>text{
+  color: #7a7a7a;
+  line-height: 100rpx;
+}

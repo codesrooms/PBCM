@@ -1,0 +1,19 @@
+<!--client/pages/bank/bank.wxml-->
+<view class='box'>
+   <!-- 创建  -->
+   <button class='addBank' bindtap='addBand'>添加+</button>
+   <!-- 库 -->
+   <view class='bank'>
+    <store bindlongpress='pitch' wx:key='{{index}}' wx:for='{{store}}' bindtap='jump' data-statu="open"></store>
+   </view>
+   <!-- 下抽屉 -->
+<view class="drawer_screen" bindtap="pitch" data-statu="close" wx:if="{{showModalStatus}}"></view>  
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">  
+ <!--drawer content-->  
+ <view class="drawer_content">  
+ <view class="drawer_title line">设为默认</view>  
+ <view class="drawer_title line">分享</view>  
+ <view class="drawer_title">充值</view>  
+ </view>  
+</view>  
+</view>

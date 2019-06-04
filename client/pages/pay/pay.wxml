@@ -1,0 +1,20 @@
+<!--client/pages/pay/pay.wxml-->
+<view class='nav'>
+  <view><text>家庭</text></view>
+  <text>管理</text>
+</view>
+<!-- 钱数 -->
+<view class='money'>
+  <text>{{money}}123￥</text>
+</view>
+<!-- 人 -->
+<view class='person'>
+  <view></view>
+  <text>更多</text>
+</view>
+<!-- 记录 -->
+<view class='record'>
+<record></record>
+</view>
+<!-- 扫一扫 -->
+<button class='pay' type='primary' bindtap='pay'>扫一扫</button>

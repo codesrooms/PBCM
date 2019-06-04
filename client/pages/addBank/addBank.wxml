@@ -1,0 +1,38 @@
+<!--client/pages/addBank/addBank.wxml-->
+<view class='box'>
+<view class='header'>创建库</view>
+<label class='menu'>
+   <text>*名称</text>
+   <input type='text' />
+</label>
+<label class='menu'>
+   <text>*描述</text>
+   <input type='text' />
+</label>
+<radio-group class="radio-group" bindchange="radioChange">
+ <text>*平均支付权限</text>
+  <label class="radio">
+    <text class='radio_first'>是</text>
+    <radio value="1"  />
+    <text>否</text>
+    <radio value="0" />
+  </label>
+</radio-group>
+<radio-group class="radio-group" bindchange="radioTop">
+ <text>*加入是否充值</text>
+  <label class="radio">
+    <text class='radio_first'>是</text>
+    <radio value="1"  />
+    <text>否</text>
+    <radio value="0" />
+  </label>
+</radio-group>
+<view class='setSum' wx:if='{{setSum}}'>
+ <label>
+    <text>*设置每人加入金额</text>
+    <input type='number'/>
+ </label>  
+</view>
+  <button class='submit' type='primary'>提交</button>
+
+</view>

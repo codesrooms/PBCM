@@ -1,0 +1,40 @@
+/* components/store/store.wxss */
+.box{
+  width: 335rpx;
+  /* width: 100%; */
+  background: #fff;
+  border-radius: 15rpx;
+  margin-top: 24rpx;
+}
+.head{
+  height: 40rpx;
+  padding: 24rpx;
+  border: 1rpx solid rgb(248, 248, 248)
+}
+.head>text{
+  line-height: 40rpx;
+  display: block;
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.money{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100rpx;
+  background: rgba(222,231,121,0.1);
+  margin: 0 auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.money>text{
+ display: block;
+ text-align: center;
+ line-height: 150rpx;
+}
+.person{
+  padding: 24rpx;
+  height: 30rpx;
+  border-radius: 5rpx;
+}

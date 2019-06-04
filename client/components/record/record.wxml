@@ -1,0 +1,5 @@
+<!--components/record/record.wxml-->
+<view class='record-box'>
+  <view class='time'><text>2019/41/24</text></view>
+
+</view>

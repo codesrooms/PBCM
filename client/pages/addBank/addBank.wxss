@@ -1,0 +1,66 @@
+/* client/pages/addBank/addBank.wxss */
+.box{
+  padding: 0rpx 24rpx;
+}
+.header{
+  text-align: center;
+  margin-top: 24rpx;
+}
+.menu{
+  display: block;
+  margin-top: 20rpx;
+}
+.menu>text{
+  display: block;
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+  color: rgb(172, 172, 172)
+}
+.menu>input{
+  padding:0rpx 20rpx;
+  background: #fff;
+  height: 80rpx;
+  border-radius: 15rpx;
+}
+.radio-group{
+  margin-top: 50rpx;
+}
+.radio-group>text{
+ display: block;
+ font-size: 34rpx;
+ color: rgb(172, 172, 172);
+}
+.radio-group>label{
+  display: block;
+  margin-top: 15rpx;
+}
+.radio>text{
+  font-size: 32rpx;
+  color: rgb(80, 80, 80);
+  margin-left: 150rpx;
+  margin-right: 10rpx;
+}
+.radio_first{
+  margin-left: 0rpx !important;
+}
+.setSum{
+ margin-top: 50rpx;
+}
+.setSum>label>text{
+  font-size: 32rpx;
+ color: rgb(172, 172, 172);
+}
+.setSum>label>input{
+  margin-top: 10rpx;
+  padding: 0rpx 10rpx;
+  border-radius: 5rpx;
+  background: #fff;
+  height:80rpx; 
+  width: 150rpx;
+}
+.submit{
+position: fixed;
+bottom: 50rpx;
+left: 24rpx;
+right: 24rpx;
+}
